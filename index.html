@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一汁三鉢 - 熊本の朝ごはん専門店</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 50%, #f48fb1 100%);
+            min-height: 100vh;
+        }
+        .pink-gradient {
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .hero-image {
+            background-image: url('https://page1.genspark.site/v1/base64_upload/fa83f67b04d96e5c2074ec092232cfd5');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero-image relative h-96 flex items-center justify-center">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="relative z-10 text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">一汁三鉢</h1>
+            <p class="text-xl mb-2">朝ごはんのある1日の始まりで</p>
+            <p class="text-lg">あなたの人生のいい日が1日でも増えますように</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="glass-effect sticky top-0 z-50 py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center space-x-8">
+                <a href="#about" class="text-pink-800 hover:text-pink-600 font-medium">お店について</a>
+                <a href="#menu" class="text-pink-800 hover:text-pink-600 font-medium">メニュー</a>
+                <a href="#hours" class="text-pink-800 hover:text-pink-600 font-medium">営業時間</a>
+                <a href="#access" class="text-pink-800 hover:text-pink-600 font-medium">アクセス</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-pink-800 mb-8">お店について</h2>
+                <div class="glass-effect rounded-lg p-8 mb-8">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        熊本市中央区下通にある朝ごはん専門店「一汁三鉢」です。<br>
+                        おにぎりと豚汁とちょっと小鉢たちで、心温まる朝の時間をお過ごしください。
+                    </p>
+                    <p class="text-pink-700 font-medium text-xl">
+                        朝ごはんのある1日の始まりで、あなたの人生のいい日が1日でも増えますように
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-white bg-opacity-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-pink-800 text-center mb-12">メニュー</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Menu Item 1 -->
+                <div class="glass-effect rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://page1.genspark.site/v1/base64_upload/cfcbc52fe929ff3e00a3c4a2614f47bb" 
+                         alt="豪華朝食セット" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-800 mb-2">朝の恵み</h3>
+                        <p class="text-gray-600">おにぎり、豚汁、卵焼き、小鉢で充実の朝食をお楽しみください</p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="glass-effect rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://page1.genspark.site/v1/base64_upload/e8ddf168735cf189f3c15cfe690d80f3" 
+                         alt="木のお盆セット" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-800 mb-2">おもてなし膳</h3>
+                        <p class="text-gray-600">木のお盆で提供される上品な朝食セット</p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="glass-effect rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://page1.genspark.site/v1/base64_upload/3816459d7b918d335fd5497b83275874" 
+                         alt="シンプルセット" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-800 mb-2">ほっこり朝食</h3>
+                        <p class="text-gray-600">おにぎり、豚汁、茶碗蒸しのシンプルで美味しいセット</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operating Hours Section -->
+    <section id="hours" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-pink-800 text-center mb-12">営業時間</h2>
+            <div class="max-w-2xl mx-auto">
+                <div class="glass-effect rounded-lg p-8 text-center">
+                    <div class="mb-8">
+                        <i class="fab fa-instagram text-6xl text-pink-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-pink-700 mb-4">営業時間はこちらまで</h3>
+                        <p class="text-gray-600 mb-6">最新の営業情報はInstagramでご確認ください</p>
+                        <a href="https://www.instagram.com/ichijyu_sanpachi_kmj/" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-full hover:from-purple-600 hover:to-pink-600 transition-all transform hover:scale-105 shadow-lg">
+                            <i class="fab fa-instagram mr-2"></i>
+                            @ichijyu_sanpachi_kmj
+                        </a>
+                    </div>
+                    <div class="bg-pink-50 p-6 rounded-lg">
+                        <p class="text-pink-700 font-medium mb-2">基本営業日</p>
+                        <p class="text-gray-600 mb-2">水曜日・金曜日・土曜日 6:30-11:00</p>
+                        <p class="text-sm text-pink-600">※営業日について日曜日もやっている場合があります</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Section -->
+    <section id="access" class="py-16 bg-white bg-opacity-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-pink-800 text-center mb-12">アクセス・店舗情報</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-effect rounded-lg p-8">
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-pink-700 mb-6">店舗情報</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i class="fas fa-map-marker-alt text-pink-600 mt-1 mr-3"></i>
+                                    <div>
+                                        <p class="font-medium">住所</p>
+                                        <p class="text-gray-600">熊本市中央区下通1丁目7-24 1F</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-clock text-pink-600 mt-1 mr-3"></i>
+                                    <div>
+                                        <p class="font-medium">営業時間</p>
+                                        <p class="text-gray-600">水/金/土 6:30-11:00</p>
+                                        <p class="text-sm text-pink-600">たまに日曜日も営業します</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-info-circle text-pink-600 mt-1 mr-3"></i>
+                                    <div>
+                                        <p class="font-medium">予約</p>
+                                        <p class="text-gray-600">予約不可</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-pink-700 mb-6">アクセス</h3>
+                            <p class="text-gray-600 mb-4">
+                                熊本市電「通町筋」電停より徒歩3分<br>
+                                下通アーケード内、銀座通り近く
+                            </p>
+                            <div class="bg-pink-100 p-4 rounded-lg">
+                                <p class="text-sm text-pink-700">
+                                    <i class="fas fa-exclamation-circle mr-2"></i>
+                                    営業の曜日が毎日ではありません、お越しの際はお時間にご注意ください
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Google Map -->
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-bold text-pink-700 mb-6 text-center">地図</h3>
+                        <div class="rounded-lg overflow-hidden shadow-lg">
+                            <iframe 
+                                src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=ja&amp;q=%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E4%B8%8B%E9%80%9A1%E4%B8%81%E7%9B%AE7-24&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <a href="https://maps.google.com/?q=熊本市中央区下通1丁目7-24" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               class="inline-flex items-center px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Google Mapsで開く
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4">一汁三鉢</h3>
+            <p class="mb-2">朝ごはんのある1日の始まりで</p>
+            <p class="mb-4">あなたの人生のいい日が1日でも増えますように</p>
+            <p class="text-pink-200 text-sm">© 2025 一汁三鉢 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+    </script>
+</body>
+</html>
